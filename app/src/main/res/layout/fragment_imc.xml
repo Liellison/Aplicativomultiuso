@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".IMCFragment">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="peso"
+            android:gravity="center_horizontal"
+            android:ems="10"
+            android:id="@+id/eTPeso"
+            android:layout_marginTop="64dp"
+            android:layout_centerHorizontal="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="altura"
+            android:gravity="center_horizontal"
+            android:ems="10"
+            android:id="@+id/eTAltura"
+            android:layout_below="@id/eTPeso"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btIMC"
+            android:layout_below="@id/eTAltura"
+            android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IMC"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:id="@+id/tVIMCResultado"
+            android:layout_below="@id/btIMC"/>
+
+</RelativeLayout>

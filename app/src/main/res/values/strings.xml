@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aplicativo multiuso</string>
+    <string name="title_home">Temperatura</string>
+    <string name="title_dashboard">IMC</string>
+    <string name="title_notifications">Consumo</string>
+
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="converter">Converter</string>
+
+    <string name="lkm">Quantos km teu carro faz com 1 litros de gasolina?</string>
+    <string name="precoGasolina">Qual o preço da gasolina?</string>
+    <string name="distancia">Informe a distancia da viajem?</string>
+</resources>

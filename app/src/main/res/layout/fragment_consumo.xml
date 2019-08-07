@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".ConsumoFragment">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/lkm"
+            android:ems="10"
+            android:id="@+id/eTLKM"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:gravity="center"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/precoGasolina"
+            android:ems="10"
+            android:id="@+id/eTPreco"
+            android:layout_below="@id/eTLKM"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/distancia"
+            android:ems="10"
+            android:id="@+id/eTDistancia"
+            android:layout_below="@id/eTPreco"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"/>
+    <Button
+            android:text="Calcular gasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btGasolina"
+            android:layout_below="@id/eTDistancia"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/tVGasolina"
+            android:layout_below="@id/btGasolina"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"/>
+
+</RelativeLayout>
